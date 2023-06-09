@@ -1,0 +1,35 @@
+.header-title {
+  align-self: center;
+}
+
+.hero-image {
+  max-height: 45vh;
+}
+
+.hero-card {
+  position: absolute;
+  top: -50%;
+  /* right: 50%; */
+  min-height: 20vh;
+  min-width: 25vh;
+}
+
+@media(max-width: 768px) {
+
+  .hidden-header-bar {
+    visibility: hidden
+  }
+
+  .hero-card {
+    position: absolute;
+    top: 0%;
+    /* right: 50%; */
+    min-height: 45vh;
+    min-width: 15vh;
+  }
+
+  /* .row {
+    --bs-gutter-x: 0;
+  } */
+
+}

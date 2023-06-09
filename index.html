@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Clone Site</title>
+</head>
+
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="">
+
+  <main>
+
+    <!-- Top Navigation Bar -->
+
+    <header class="container-fluid bg-primary">
+      <section class="row py-3">
+        <div class="col-6 col-md-3">
+          <h3>Impact</h3>
+        </div>
+        <div class="col-6 col-md-8 hidden-header-bar d-flex justify-content-end">
+          <p class="col-1 justify-content-end d-flex ms-4">Home</p>
+          <p class="col-1 justify-content-end d-flex">Home</p>
+          <p class="col-1 justify-content-end d-flex">Home</p>
+          <p class="col-1 justify-content-end d-flex">Home</p>
+          <p class="col-1 justify-content-end d-flex">Home</p>
+          <p class="col-1 justify-content-end d-flex">Home</p>
+          <p class="col-1 justify-content-end d-flex">Home</p>
+        </div>
+      </section>
+    </header>
+
+    <!-- HERO CARD -->
+
+    <section class="container-fluid bg-primary">
+
+      <!-- HERO CARD LEFT CONTENT-->
+
+      <div class="row align-items-center pb-4">
+        <div class="order-2 order-md-1 col-12 col-md-6 fs-1">
+          Welcome to Impact
+          <p class="fs-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, hic.
+          </p>
+          <button class="col-5 col-md-3 btn bg-dark text-light d-flex-column">
+            Get Started
+          </button>
+          <button class="col-6 col-md-3 btn d-flex-column">
+            Watch Video</button>
+        </div>
+
+        <!-- HERO CARD RIGHT IMAGE -->
+
+        <img class="order-1 order-md-2 col-12 col-md-6 d-flex img-fluid hero-image"
+          src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsdWUlMjBhYnN0cmFjdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="Placeholder">
+      </div>
+    </section>
+
+    <!-- ABOUT US CARDS/BUTTONS -->
+
+    <section class="row text-white">
+
+      <div class="row d-flex justify-content-around px-2">
+        <button class="col-12 col-md-2 position-relative text-center btn btn-primary hero-card">
+          <i class="d-flex justify-content-center mdi mdi-television-box "></i>
+          Lorem,ipsum.</button>
+        <button class="col-12 col-md-2 position-relative text-center btn btn-primary hero-card"> <i
+            class="d-flex justify-content-center mdi mdi-television-box "></i> Lorem,ipsum.</button>
+        <button class="col-12 col-md-2 position-relative text-center btn btn-primary hero-card"> <i
+            class="d-flex justify-content-center mdi mdi-television-box "></i> Lorem,ipsum.</button>
+        <button class="col-12 col-md-2 position-relative text-center btn btn-primary hero-card"> <i
+            class="d-flex justify-content-center mdi mdi-television-box "></i> Lorem,ipsum.</button>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT US HEADER -->
+
+    <section class="row">
+      <!-- <div class="row"> -->
+      <p class="col-12 text-center fs-4">About Us</p>
+      <i class="col-12 text-center fs-1 mdi mdi-line-scan"></i>
+      <p class="col-12 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, nisi?</p>
+      <!-- </div> -->
+    </section>
+
+    <!-- INFO WITH IMAGES -->
+
+    <section class="container-fluid">
+      <div class="row">
+        <!-- LEFT SIDE PARAGRAPH W/ IMG -->
+        <div class="col-6">
+          <h3>Lorem ipsum dolor sit.</h3>
+          <img class="img-fluid"
+            src="https://images.unsplash.com/photo-1682687220945-922198770e60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="placeholder">
+          <p class="fs-13">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias voluptas expedita eius
+            tempore eveniet nulla nisi illum aut neque?</p>
+        </div>
+
+        <!-- RIGHT SIDE PARAGRAPH W/ IMG -->
+
+        <div class="col-6">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore soluta ratione voluptatum laudantium
+            maiores, amet eligendi?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, libero. ipsum dolor, sit amet
+            consectetur adipisicing elit. Veritatis, facilis! ipsum dolor sit amet consectetur adipisicing elit. Quas,
+            recusandae.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, delectus.</p>
+          <img class="img-fluid"
+            src="https://images.unsplash.com/photo-1682687220945-922198770e60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO STATS -->
+    <section class="continer-fluid">
+      <div class="row">
+        <div class="col-6"><img
+            src="https://media.istockphoto.com/id/1412854156/photo/strawberries-isolated-strawberry-whole-and-a-half-on-white-background-strawberry-slice-with.webp?b=1&s=170667a&w=0&k=20&c=i3w-vsDmvuxyI-6CCRAved2fZ43K-t6zpb5PNkTTYDE="
+            alt=""></div>
+        <div class="col-6 flex-direction-column p-4">
+          <div class="col-12 py-3"></div>
+          <div class="col-12 py-3">232 HAPPY CLIENTS</div>
+          <div class="col-12 py-3">232 HAPPY CLIENTS</div>
+          <div class="col-12 py-3">232 HAPPY CLIENTS</div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR SERVICES HEADER -->
+
+    <section class="container-fluid bg-secondary">
+      <div class="row">
+        <p class="col-12 text-center fs-4">Our Services</p>
+        <i class="col-12 text-center fs-1 mdi mdi-line-scan"></i>
+        <p class="col-12 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, nisi?</p>
+      </div>
+      <!-- </section> -->
+
+      <!-- OUR SERVICES CARDS -->
+
+      <!-- <section class="container"> -->
+
+      <div class="row justify-content-between">
+
+        <div class="col-3 border border-dark bg-light rounded m-1">
+          <i class="mdi mdi-pulse"></i>
+          <h5>Lorem, ipsum.</h5>
+          <p class="fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum amet temporibus
+            consequatur exercitationem laudantium?
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="col-3 border border-dark bg-light rounded m-1">
+          <i class="mdi mdi-pulse"></i>
+          <h5>Lorem, ipsum.</h5>
+          <p class="fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum amet temporibus
+            consequatur exercitationem laudantium?
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+
+        <div class="col-3 border border-dark bg-light rounded m-1">
+          <i class="mdi mdi-pulse"></i>
+          <h5>Lorem, ipsum.</h5>
+          <p class="fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum amet temporibus
+            consequatur exercitationem laudantium?
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="col-3 border border-dark bg-light rounded m-1">
+          <i class="mdi mdi-pulse"></i>
+          <h5>Lorem, ipsum.</h5>
+          <p class="fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum amet temporibus
+            consequatur exercitationem laudantium?
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="col-3 border border-dark bg-light rounded m-1">
+          <i class="mdi mdi-pulse"></i>
+          <h5>Lorem, ipsum.</h5>
+          <p class="fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum amet temporibus
+            consequatur exercitationem laudantium?
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="col-3 border border-dark bg-light rounded m-1">
+          <i class="mdi mdi-pulse"></i>
+          <h5>Lorem, ipsum.</h5>
+          <p class="fs-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum amet temporibus
+            consequatur exercitationem laudantium?
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+
+
+  </main>
+
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
